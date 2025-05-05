@@ -32,6 +32,15 @@ body {
   transition: opacity 2s ease;
 }
 
+a {
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  letter-spacing: 1px;
+  filter: blur(0.5px);
+}
+
 #camada2 {
   margin-top: 40px;
   color: #3D5AFE;
