@@ -59,17 +59,7 @@ a:hover {
   50% { opacity: 0; }
   100% { opacity: 1; }
 }
-.fallback-glitch {
-  font-size: 1.2rem;
-  color: #C62828;
-  animation: piscar 1s steps(2, start) infinite;
-}
-.ip-line {
-  margin-top: 20px;
-  font-size: 0.8rem;
-  color: #4C4C4C;
-  font-family: 'Courier New', monospace;
-}
+
 .fallback-glitch {
   font-size: 1.2rem;
   color: #C62828;
