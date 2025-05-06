@@ -59,3 +59,8 @@ a:hover {
   50% { opacity: 0; }
   100% { opacity: 1; }
 }
+.fallback-glitch {
+  font-size: 1.2rem;
+  color: #C62828;
+  animation: piscar 1s steps(2, start) infinite;
+}
