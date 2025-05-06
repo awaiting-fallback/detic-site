@@ -1,16 +1,19 @@
 window.onload = () => {
+  const acessar = document.getElementById("acessar");
+  const glitch = document.querySelector(".glitch");
+  const camada2 = document.getElementById("camada2");
+  const statusCheck = document.getElementById("status-check");
+  const ipDisplay = document.getElementById("ip-display");
+  const armazenado = document.getElementById("armazenamento");
+
+  // Delay inicial para exibir o botão
   setTimeout(() => {
-    document.getElementById("acessar").style.opacity = 1;
+    acessar.style.opacity = 1;
   }, 4000);
 
-  document.getElementById("acessar").addEventListener("click", () => {
-    document.querySelector(".glitch").style.display = "none";
-    document.getElementById("acessar").style.display = "none";
-
-    const camada2 = document.getElementById("camada2");
-    const statusCheck = document.getElementById("status-check");
-    const ipDisplay = document.getElementById("ip-display");
-    const armazenado = document.getElementById("armazenamento");
+  acessar.addEventListener("click", () => {
+    glitch.style.display = "none";
+    acessar.style.display = "none";
 
     camada2.classList.remove("oculto");
     camada2.classList.add("visivel");
@@ -58,6 +61,6 @@ window.onload = () => {
             }, 1000);
           });
       }
-    }, 700); // troca a cada 700ms
+    }, 700); // Avança a cada 700ms
   });
 };
